@@ -14,7 +14,7 @@ public class BinarySearch
         if(numbers.length == 0) return -1;
 
         // Q: Why is right 1 less than the length of numbers array?
-        // A: Because left is 0-indexed; while loop would throw an exception if full length was used.
+        // A: Because the array itself is 0-indexed; while loop would throw an exception if full length was used.
         int left = 0;
         int right = numbers.length - 1;
 
