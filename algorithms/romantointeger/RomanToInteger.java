@@ -27,3 +27,16 @@
  * 
  * Goal: Given a roman numeral, convert it to an integer.
  */
+
+public class RomanToInteger
+{
+    public static int romanToInteger(String s)
+    {
+        return 1;
+    }
+
+    public static void main(String[] args)
+    {
+
+    }
+}

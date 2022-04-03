@@ -4,7 +4,7 @@ and an integer target, write a function to search target in numbers.
 If target exists, then return its index. Otherwise, return -1.
 You must write an algorithm with O(log n) runtime complexity. 
 */
-package binarysearch;
+//package binarysearch;
 
 public class BinarySearch 
 {
