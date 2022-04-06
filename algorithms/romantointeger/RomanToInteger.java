@@ -37,7 +37,6 @@ public class RomanToInteger
 
         int accumulator = 0;
 
-<<<<<<< HEAD
         /** TODO: Fix case where s = MCMXCIV; should be 1994, not 2216; 2216-1994=222
          * Note that amounts need to be subtracted for the following scenarios:
          * CM = 900
@@ -65,9 +64,6 @@ public class RomanToInteger
          *
          * TODO: Can I still go with a switch statement here? Need to check for Rule #4!!!
          */
-=======
-        // TODO: Fix case where s = MCMXCIV; should be 1994, not 2216; 2216-1994=222
->>>>>>> b797c6eac4f7f83acb34a4de9a6bfd143d95729a
         // Iterate over `char[]` array using enhanced for-loop.
         for(int i = 0; i < chars.length; i++)
         {
