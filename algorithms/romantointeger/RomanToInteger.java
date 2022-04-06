@@ -32,11 +32,49 @@ public class RomanToInteger
 {
     public static int romanToInteger(String s)
     {
-        return 1;
+        // Convert string to `char[]` array.
+        char[] chars = s.toCharArray();
+
+        int accumulator = 0;
+
+        // TODO: Fix case where s = MCMXCIV; should be 1994, not 2216; 2216-1994=222
+        // Iterate over `char[]` array using enhanced for-loop.
+        for(int i = 0; i < chars.length; i++)
+        {
+            // change it to a number
+            switch (chars[i])
+            {
+                case 'I':
+                    accumulator += 1;
+                    break;
+                case 'V':
+                    accumulator += 5;
+                    break;
+                case 'X':
+                    accumulator += 10;
+                    break;
+                case 'L':
+                    accumulator += 50;
+                    break;
+                case 'C':
+                    accumulator += 100;
+                    break;
+                case 'D':
+                    accumulator += 500;
+                    break;
+                case 'M':
+                    accumulator += 1000;
+                    break;
+                default:
+                    break;
+            }
+        }
+        return accumulator;
     }
 
     public static void main(String[] args)
     {
-
+        // Run the program from within main().
+        System.out.println(romanToInteger("MCMXCIV"));
     }
 }
