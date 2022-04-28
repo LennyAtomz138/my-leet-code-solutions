@@ -6,3 +6,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Ignore `out` directory
+/my-leet-code-solutions.iml/out/
