@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" filepath="$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwoSum/TwoSum.iml" filepath="$PROJECT_DIR$/TwoSum/TwoSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-leet-code-solutions.iml" filepath="$PROJECT_DIR$/my-leet-code-solutions.iml" />
     </modules>
   </component>
